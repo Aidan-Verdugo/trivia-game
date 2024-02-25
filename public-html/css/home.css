@@ -1,0 +1,45 @@
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+    background-color: #AED5AF;
+}
+h1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15vh;
+}
+.titleHolder{
+    margin:auto;
+    width: 90%;
+    text-align: center;
+}
+.buttonHolder{
+    margin:auto;
+    width: 90%;
+    text-align: center;
+}
+button{
+    float: left;
+    width: 50%;
+    height: 50vh;
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60pt;
+    background-color:#AED5AF;
+    padding: 0;
+    border: none;
+    transition: 100ms linear 25ms;
+}
+button:hover{
+    background-color: #A7FFAB;
+    font-size: 74pt;
+    transition: 100ms linear 25ms;
+    color:white;
+}
